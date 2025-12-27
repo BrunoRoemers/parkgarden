@@ -13,6 +13,20 @@ export const Typography = () => {
           aliquam temporibus, tempora voluptas?
         </P>
       </Narrow>
+      <Full className="bg-green-300 min-h-56 py-8">
+        <H2>This is a full section</H2>
+        <P>
+          In the gentle art of gardening, one becomes both steward and witness
+          to the quiet miracles of nature. With each seed pressed into the dark
+          embrace of earth, hope is planted alongside it, nourished by patient
+          hands and watchful eyes. Time slows its hurried pace among the rows
+          and petals, teaching lessons of resilience and surrender as new life
+          unfurls beneath sun and rain. Gardening is a silent poem—rooted in the
+          soil yet ever reaching for the light, it reminds us that beauty grows
+          not just in blossoms, but in the tender devotion that brings them
+          forth.
+        </P>
+      </Full>
       <Narrow>
         <H2>This is a narrow section</H2>
         <P>
@@ -29,20 +43,6 @@ export const Typography = () => {
           outside your door.
         </P>
       </Narrow>
-      <Full className="bg-green-300 min-h-56">
-        <H2>This is a full section</H2>
-        <P>
-          In the gentle art of gardening, one becomes both steward and witness
-          to the quiet miracles of nature. With each seed pressed into the dark
-          embrace of earth, hope is planted alongside it, nourished by patient
-          hands and watchful eyes. Time slows its hurried pace among the rows
-          and petals, teaching lessons of resilience and surrender as new life
-          unfurls beneath sun and rain. Gardening is a silent poem—rooted in the
-          soil yet ever reaching for the light, it reminds us that beauty grows
-          not just in blossoms, but in the tender devotion that brings them
-          forth.
-        </P>
-      </Full>
       <Wide>
         <H2>This is a wide section</H2>
         <P>
@@ -56,6 +56,14 @@ export const Typography = () => {
           something beautiful side by side.
         </P>
       </Wide>
+      <Narrow>
+        <P>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+          error esse assumenda nesciunt praesentium expedita possimus unde
+          fugit, quo rerum atque inventore ullam quod doloribus in cumque
+          voluptatem repellat repudiandae.
+        </P>
+      </Narrow>
     </div>
   );
 };

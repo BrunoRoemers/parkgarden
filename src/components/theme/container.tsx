@@ -6,7 +6,7 @@ interface ContainerProps {
 }
 
 export const Narrow = ({ children, className }: ContainerProps) => {
-  return <div className={cn("px-8", className)}>{children}</div>;
+  return <div className={cn("px-8 sm:px-16", className)}>{children}</div>;
 };
 
 export const Wide = ({ children, className }: ContainerProps) => {
