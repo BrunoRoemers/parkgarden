@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn(nunito.variable, "antialiased")}>
       <body className="bg-stone-50">{children}</body>
+      <Analytics />
     </html>
   );
 }
