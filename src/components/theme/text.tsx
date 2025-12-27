@@ -41,6 +41,10 @@ export const H6 = ({ children, className }: TextProps) => {
   );
 };
 
+export const Lead = ({ children, className }: TextProps) => {
+  return <p className={cn("text-lg mb-2", className)}>{children}</p>;
+};
+
 export const P = ({ children, className }: TextProps) => {
   return <p className={cn("text-base mb-2", className)}>{children}</p>;
 };
