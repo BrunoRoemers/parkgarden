@@ -20,10 +20,13 @@ export const Typography = () => {
           starting a garden—the crisp scent of fresh soil, the anticipation that
           hums with every seed planted, and the wonder at what will soon take
           root and bloom. Each plot is a blank canvas, full of hope and
-          possibility, where imagination mingles with the promise of nature’s
-          surprises. The excitement grows with each tiny sprout, forging a
-          connection to the rhythms of growth and the joy that comes from
-          nurturing life right outside your door.
+          possibility, where imagination mingles with the promise of
+          nature&apos;s surprises.
+        </P>
+        <P>
+          The excitement grows with each tiny sprout, forging a connection to
+          the rhythms of growth and the joy that comes from nurturing life right
+          outside your door.
         </P>
       </Narrow>
       <Full className="bg-green-300 min-h-56">
