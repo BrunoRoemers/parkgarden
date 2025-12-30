@@ -15,7 +15,7 @@ export const SectionLink = ({ perma, children, className }: Props) => {
     <a href={`#${perma}`} className="group relative">
       <span
         className={cn(
-          "absolute hidden -translate-x-full pr-1 group-hover:inline",
+          "absolute -translate-x-full pr-1 opacity-0 transition-opacity group-hover:opacity-20",
           className,
         )}
       >
