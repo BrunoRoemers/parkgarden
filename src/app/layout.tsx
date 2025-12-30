@@ -25,8 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={cn(nunito.variable, "antialiased")}>
-      <body className="bg-stone-50">{children}</body>
-      <Analytics />
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
