@@ -17,7 +17,7 @@ export default function Page() {
       </section>
       <section>
         <Narrow>
-          <H2>Dec 30, 2025</H2>
+          <H2 perma="a7x2jk">Dec 30, 2025</H2>
           <P>
             The site is in the <b>Cfb</b> zone of the Köppen climate
             classification. It&apos;s a temperate oceanic climate with warm
@@ -34,7 +34,7 @@ export default function Page() {
       </section>
       <section>
         <Narrow>
-          <H2>Dec 27, 2025</H2>
+          <H2 perma="xg7kzq">Dec 27, 2025</H2>
           <P>We&apos;re live!</P>
         </Narrow>
       </section>
