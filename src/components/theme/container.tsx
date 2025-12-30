@@ -7,13 +7,13 @@ interface ContainerProps {
 
 export const Narrow = ({ children, className }: ContainerProps) => {
   return (
-    <div className={cn("px-8 max-w-2xl mx-auto", className)}>{children}</div>
+    <div className={cn("mx-auto max-w-2xl px-8", className)}>{children}</div>
   );
 };
 
 export const Wide = ({ children, className }: ContainerProps) => {
   return (
-    <div className={cn("px-8 max-w-4xl mx-auto", className)}>{children}</div>
+    <div className={cn("mx-auto max-w-4xl px-8", className)}>{children}</div>
   );
 };
 

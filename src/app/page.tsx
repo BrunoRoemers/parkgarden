@@ -5,7 +5,7 @@ import { H1, H2, Lead, P } from "@/components/theme/text";
 
 export default function Page() {
   return (
-    <div className="py-12 space-y-10">
+    <div className="space-y-10 py-12">
       <section>
         <Narrow>
           <H1>Parkgarden</H1>

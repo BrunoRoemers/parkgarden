@@ -13,7 +13,7 @@ export const Typography = () => {
           aliquam temporibus, tempora voluptas?
         </P>
       </Narrow>
-      <Full className="bg-green-300 min-h-56 py-8">
+      <Full className="min-h-56 bg-green-300 py-8">
         <H2>This is a full section</H2>
         <P>
           In the gentle art of gardening, one becomes both steward and witness
