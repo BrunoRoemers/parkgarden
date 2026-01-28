@@ -1,4 +1,5 @@
 import imgKoppenCfb from "@/assets/2025-12-30-koppen-cfb.png";
+import imgSoupPoster from "@/assets/2026-01-11-meet-the-neighbours.png";
 import { Narrow, Wide } from "@/components/theme/container";
 import { Image } from "@/components/theme/image";
 import { H1, H2, Lead, P } from "@/components/theme/text";
@@ -14,6 +15,21 @@ export default function Page() {
             neighbors can grow vegetables, herbs, fruits and flowers together.
           </Lead>
         </Narrow>
+      </section>
+      <section>
+        <Narrow>
+          <H2 perma="4d7k2h">Jan 11, 2026</H2>
+          <P>
+            More than 20 neighbours showed up to meet each other and drink a lovely cup of soup.
+            This was a great opportunity to get to know each other, exchange contact details and talk about the future garden.
+          </P>
+        </Narrow>
+        <Wide>
+          <Image
+            src={imgSoupPoster}
+            alt="Poster: meet the neighbours for soup"
+          />
+        </Wide>
       </section>
       <section>
         <Narrow>
